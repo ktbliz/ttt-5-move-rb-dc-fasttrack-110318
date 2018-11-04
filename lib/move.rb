@@ -16,7 +16,4 @@ def move(board, index, value = X)
     def update_board_at_with(board, index, value)
       board[index] = value
     end
-  else
-    put "That position has been taken, please select another position"
-  end
 end
