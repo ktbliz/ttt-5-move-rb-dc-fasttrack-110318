@@ -13,7 +13,7 @@ end
 
 def move(board, index, value = X)
   if board[index] = " "
-    def update_board_at_with(board, index, value = X)
+    def update_board_at_with(board, index, value)
       board[index] = value
     end
     end
