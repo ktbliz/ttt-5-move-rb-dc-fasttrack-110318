@@ -11,6 +11,12 @@ def input_to_index(input)
   index = input.to_i - 1 
 end
 
-def update_board_at_with(board, index, value)
-  board[index] = value
+def move(board, index, value = X)
+  if board[index] = " "
+    def update_board_at_with(board, index, value)
+      board[index] = value
+    end
+  else
+    put "That position has been taken, please select another position"
+  end
 end
