@@ -16,5 +16,6 @@ def move(board, index, value = "X")
     def update_board_at_with(board, index, value)
       board[index] = value
     end
+    update_board_at_with(board, index, value)
     end
 end
